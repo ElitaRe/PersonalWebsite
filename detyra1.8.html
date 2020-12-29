@@ -10,7 +10,7 @@
 
 <body>
 
-    <p><a href="firstchapter.html">Back</a></p>
+<button onclick="goBack()">Go Back</button>
     
     <h1>Here are my favorite sites</h1>
     <p><strong>Click on a name to go to that page</strong></p>
@@ -22,6 +22,13 @@
         <li><a href="http://www.amazon.com">Amazon</a></li>
         <li><a href="http://www.linkedin.com">LinkedIn</a></li>
     </ul>
+    
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
 </body>
 
 </html>

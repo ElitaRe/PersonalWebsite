@@ -10,13 +10,20 @@
 
 <body>
 
-	<p><a href="firstchapter.html">Back</a></p>
+<button onclick="goBack()">Go Back</button>
 	
     <p>
         To write to <a href="mailto:deitel@deitel.com">
             Deitel & Associates, Inc. </a>, click the link and your default
         email client will open an email message and address it to us.
     </p>
+    
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
 </body>
 
 </html>

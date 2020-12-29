@@ -42,8 +42,13 @@
 
 <body>
 
-    <p><a href="thirdchapter.html">Back</a></p>
-    
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>    
     <p>The text at the end of this sentence
         <span class="super">is in superscript.</span>
     </p>

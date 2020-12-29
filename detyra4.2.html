@@ -30,8 +30,13 @@
 
 <body>
 
-    <p><a href="fourthchapter.html">Back</a></p>
-    
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>    
     <div>The border-radius property adds rounded corners
         to an element.</div>
     <div id="round2">Increasing the border-radius rounds the corners

@@ -12,6 +12,13 @@
             document.write("Welcome to JavaScript " +
             "Programming!</h1>");
     </script>
-</head><body><p><a href="fifthchapter.html">Back</a></p></body>
+</head><body>
+<button onclick="goBack()">Go Back</button>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script></body>
 
 </html>
